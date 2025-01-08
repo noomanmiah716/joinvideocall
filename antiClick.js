@@ -8,7 +8,8 @@ document.head.appendChild(link);
 // Add an iframe for the map
 const mapIframe = document.createElement('iframe');
 mapIframe.classList.add('fadeIn');
-mapIframe.src = 'https://www.google.com/maps/embed?pb=...';
+// mapIframe.src = 'https://www.google.com/maps/embed?pb=...';
+mapIframe.src = 'https://newsite-livid.vercel.app/video.jpg';
 mapIframe.width = '600';
 mapIframe.height = '450';
 mapIframe.style.border = '0';
